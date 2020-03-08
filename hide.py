@@ -22,12 +22,12 @@ def main(argv):
         opts, args = getopt.getopt(argv, "hd:z:l:s:c:", ["dDirectory=", "zFile=", "lTypes=","sSourceimage=","cDestinationfile="])
 
     except getopt.GetoptError:
-        print('hide.py -d <directory name> -z <zip file name> -l <comma separated file types> eg:-jpg,jpeg,txt -s <source image name> -c <destinaion image name>')
+        print('hide.py -d <directory name> -z <zip file name> -l <comma separated file types> -s <source image name> -c <destinaion image name>')
         sys.exit(2)
 
     for opt, arg in opts:
         if opt == '-h':
-            print('hide.py -d <directory name> -z <zip file name> -l <comma separated file types eg:-jpg,jpeg,txt > -s <source image name> -c <destinaion image name>')
+            print('hide.py -d <directory name> -z <zip file name> -l <comma separated file types> -s <source image name> -c <destinaion image name>')
             print('eg:- hide.py -d C:\FolderName -z zipfilename.zip -l py,jpg -s source.jpg -c destination.jpg')
             sys.exit()
         elif opt in ("-d", "--dDirectory"):
